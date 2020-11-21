@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #1f3349;
+}
+/*top navigation*/
+.topNavBar-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: .65em 5.5em;
+  font-size: .9em;
+}
+.nav-top-sub-wrapper{
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  top: 5%;
+  left: 26.5%;
+  border-radius: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .9em;
+}
+.nav-top-sub-wrapper li{
+  list-style-type: none;
+  padding: .5em 1em;
+}
+.nav-top-sub-wrapper li:hover{
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+.topNavBar-left-menu-list{
+  display: flex;
+  width: 23vw;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.topNavBar-right-menu-list{
+  display: flex;
+  width: 10vw;
+  justify-content: space-between;
+  list-style-type: none;
+}
+/*main navigation*/
+.MainNavBar-Wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141526;
+  color: #fff;
+  padding: .8em 5.1em;
+}
+.MainNavBar-Wrapper li, .MainNavBar-Wrapper p{
+  color: #fff;
+}
+.Nav-CallToAction{
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav-CallToAction li{
+  list-style-type: none;
+  font-size: .9em;
+}
+.Nav-SellNow{
+  padding: 10px 20px;
+  border: 1px #FF8464 solid;
+  background-color: #ff8464;
+  color: #fff;
+  border-radius: .2em;
+  cursor: pointer;
+}
+.LogoAndBrowse{
+  display: flex;
+  width: 14vw;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.FlippaLogo{
+  cursor: pointer;
+}
+.LogoAndBrowse li{
+  list-style-type: none;
+}
+.MainNav-Browse{
+  font-size: .9em;
+}
+/*form input*/
+.searchForm{
+  display: none;
+}
+.SearchForm-Input{
+  width: 40vw;
+  padding: .9em;
+  border-radius: .5em;
+}
+
+
+/*hero section*/
+.HeroSection-Wrapper{
+  background-color: #f6f5ef;
+  height: 55vh;
+}
+.HeroSection-Wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.HeroSection-img{
+  width: 30vw;
+  position: absolute;
+  left: 50%;
+  top: 16.4%;
+}
+.HeroSection-imgInner{
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+}
+.HerSection-Title{
+  margin-top: 1.5em;
+  font-size: 2.75em;
+}
+.HerSection-Desc{
+  margin-top: 1em;
+  font-size: 1.3em;
+  width: 40vw;
+}
+.Search-Hero{
+  margin-top: 2em;
+}
+.HeroSection-TitleScroll{
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+.LiveUpdate-CallAction{
+  margin-top: 2em;
+  display: flex;
+  font-size: .92em;
+  align-items: center;
+}
+.SellerCallAction{
+  margin-left: 2em;
+}
+.LiveListing{
+  margin-left: .8em;
+  color: #6c757d;
+}
+.SearchInput-Hero{
+  padding: 16.5px;
+  width: 35vw;
+  border: 1px #fff solid;
+  border-radius: .5em;
+}
+.SearchSubmit-Hero{
+  padding: 16.5px;
+  width: 10.85vw;
+  border: 1px #00c57f solid;
+  background-color: #00c57f;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+.Header-inner{
+  padding-left: 5em;
+}
+.HeroSection-imgInnerCaption{
+  position: absolute;
+  top: 50%;
+}
+/*browse*/
+.BrowseTitle{
+  font-size: 1.7em;
+  margin-top: 2.09em;
+}
+.eCommerce-Tab{
+  padding: .7em 1.2em;
+  background-color: #63707e;
+  border: 1px #63707e solid;
+  color: #fff;
+  margin-top: 2em
+}
+.BrowseDesc{
+  font-size: 1.1em;
+  margin-top: .7em;
+}
+.Browse-Wrapper{
+  padding: .65em 5.5em;
+}
+/*card*/
+.Card-Img{
+  width: 20vw;
+  height: 13vw;
+}
+.Card-Title-Wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  align-items: center;
+}
+.Card-Title-Wrapper ul{
+  
+  list-style-type: none;
+}
+.Card-Categories-Wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.Card-Categories-List{
+  display: flex;
+  justify-content: space-between;
+}
+.Card-Categories-List{
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  list-style-type: none;
+}
+.Card-Wrapper{
+  display: flex;
+  width: 84vw;
+  border: 1px #ffb038 solid;
+  padding: 10px;
+}
+.Card-Wrapper-Inner{
+  display: flex;
+}
+.Card-Title{
+  font-size: 1.2em;
+}
+.Card-Price-Info{
+  display: flex;
+  justify-content: space-between;
+  width: 11vw;
+}
+.Card-Price-Info li{
+  font-size: .9em;
+}
+.Card-Flex{
+  margin-left: 1.5em;
+}

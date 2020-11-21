@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './style.css';
+import {TopNavBar, MainNavBar, HeroSection} from './header';
+import {Browse} from './main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TopNavBar />
+    <MainNavBar />
+    <HeroSection />
+    <Browse />
   </React.StrictMode>,
   document.getElementById('root')
 );
